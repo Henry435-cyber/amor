@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para mi niña 💖</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+
+        .carta {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 10px;
+            background: white;
+            color: #ff6f91;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ffe0e6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carta">
+        <h1>Para ti 💖</h1>
+        <p>
+            Hola mi amor…<br><br>
+            Solo quería decirte que eres muy especial para mí 💕<br>
+            Me haces feliz incluso en mis peores días 🥺<br><br>
+            Gracias por ser tan linda conmigo…<br>
+            Te quiero muchísimo 💖
+        </p>
+
+        <button onclick="mensaje()">Haz click aquí 💌</button>
+    </div>
+
+    <script>
+        function mensaje() {
+            alert("Eres lo mejor que me ha pasado 💖");
+        }
+    </script>
+
+</body>
+</html>
